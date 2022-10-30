@@ -86,14 +86,13 @@ const App = () => {
                 <td>{"$" + cart[i.name].price}</td>
                 <td>
                   <div className="btns">
-                    <button className="btn btn-outline-primary">
-                      <a
+                    <a
                         href={"https://www.amazon.com/s?k=" + cart[i.name].name}
                         target="_blank"
+                        className="btn btn-outline-primary"
                       >
                         Buy
                       </a>
-                    </button>
                     <button
                       className="btn btn-outline-danger"
                       onClick={() => {
