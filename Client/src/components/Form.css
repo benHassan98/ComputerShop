@@ -1,0 +1,18 @@
+textarea{
+   resize: none;
+}
+.form-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 90vw;
+ }
+ form{
+    height: 80vh;
+    width: 80vw;
+ }
+.alert{
+   width: 80vw;
+}

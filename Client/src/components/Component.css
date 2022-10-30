@@ -1,0 +1,38 @@
+img{
+width: 180px;
+height: 180px;
+
+}
+
+.component-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+}
+.info{
+    display: flex;
+}
+.sub-1{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 5px;
+}
+.sub-2{
+    display: flex;
+    gap: 10px;
+}
+.div1,.div2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div1{
+    flex: 1;
+}
+.div2{
+    flex:3;
+}
