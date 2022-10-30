@@ -55,7 +55,9 @@ const Component = () => {
           className="btn btn-primary"
           onClick={() => {
             addToCart(component);
-            if (cookies.components && cookies.components.indexOf(i) === -1)
+            if ( !cookies.components ||
+              (cookies.components &&
+                !cookies.components.includes(i._id)))
               setCookies(
                 "components",
                 [...(cookies.components ? cookies.components : []), i._id],

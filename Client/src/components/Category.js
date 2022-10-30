@@ -93,8 +93,9 @@ const Category = () => {
                     onClick={() => {
                       addToCart(i);
                       if (
-                        cookies.components &&
-                        cookies.components.indexOf(i) === -1
+                        !cookies.components ||
+                        (cookies.components &&
+                          !cookies.components.includes(i._id))
                       )
                         setCookies(
                           "components",
