@@ -3,7 +3,7 @@
 
 ![Computer Shop](https://github.com/yabani98/ComputerShop/blob/main/ComputerShop.png?raw=true)
 
-> ## From The Odin Project's [curriculum](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs/lessons/members-only)
+> ## From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/nodejs-inventory-application)
 
 > - [live demo](#)
 
