@@ -5,7 +5,7 @@
 
 > ## From The Odin Project's [curriculum](https://www.theodinproject.com/lessons/nodejs-inventory-application)
 
-> - [live demo](#)
+> - [live demo](https://computershopfe-production.up.railway.app/)
 
 ## Assignment
 > Create an inventory app where users can create,update,delete,view computer parts,and make their build with links to buy the parts.
