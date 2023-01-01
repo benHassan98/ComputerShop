@@ -87,17 +87,22 @@ const App = () => {
                 <td>
                   <div className="btns">
                     <a
-                        href={"https://www.amazon.com/s?k=" + cart[i.name].name}
-                        target="_blank"
-                        className="btn btn-outline-primary"
-                      >
-                        Buy
-                      </a>
+                      href={"https://www.amazon.com/s?k=" + cart[i.name].name}
+                      target="_blank"
+                      className="btn btn-outline-primary"
+                    >
+                      Buy
+                    </a>
                     <button
                       className="btn btn-outline-danger"
                       onClick={() => {
                         removeFromCart(i.name);
-                        setCookies("components", cookies.components.filter(id=> id !== i));
+                        setCookies(
+                          "components",
+                          cookies.components.filter(
+                            (id) => id !== cart[i.name]._id
+                          )
+                        );
                       }}
                     >
                       Remove
